@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
-
+import FibClock from './Components/FibClock/FibClock';
 function App() {
+  let time  = new Date().toLocaleTimeString()
+
+  const [ctime,setTime] = useState(time)
+  const UpdateTime=()=>{
+    time =  new Date().toLocaleTimeString()
+    setTime(time)
+  }
+  setInterval(UpdateTime)
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p style={{fontSize:"60px",fontFamily:"fantasy",color:"black"}}>Fibonnici Clock</p>
+      <FibClock/>
+      <p style={{fontSize:"60px",fontFamily:"fantasy",color:"black"}}>{ctime}</p>
     </div>
   );
 }
