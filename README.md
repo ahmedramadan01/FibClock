@@ -1,4 +1,4 @@
-# Fibbonici Clock
+# Fibonacci Clock
 [![Live Demo](https://img.shields.io/badge/View-Live%20Demo-brightgreen)](https://ahmedramadan01.github.io/FibClock/)
 
 The Fibonacci clock lets you know the time more subtly, by changing colours and requiring you do some adding up.
