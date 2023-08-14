@@ -1,4 +1,6 @@
 # Fibbonici Clock
+[![Live Demo](https://img.shields.io/badge/View-Live%20Demo-brightgreen)](https://ahmedramadan01.github.io/FibClock/)
+
 The Fibonacci clock lets you know the time more subtly, by changing colours and requiring you do some adding up.
 
 The Fibonacci sequence is the sequence beginning 1, 1 and where each number is the sum of the previous two. Its first five digits are: 1, 1, 2, 3, 5
