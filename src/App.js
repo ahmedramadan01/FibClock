@@ -13,7 +13,7 @@ function App() {
   
   return (
     <div className="App">
-      <p style={{fontSize:"60px",fontFamily:"fantasy",color:"black"}}>Fibonnici Clock</p>
+      <p style={{fontSize:"60px",fontFamily:"fantasy",color:"black"}}>Fibonacci Clock</p>
       <FibClock/>
       <p style={{fontSize:"60px",fontFamily:"fantasy",color:"black"}}>{ctime}</p>
     </div>
